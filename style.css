@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-top: 90px;
+}
+
+.quadrado {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 580px;
+    border-radius: 30px;
+    
+}
+
+.quadrado img {
+    border-radius: 30px;
+    padding-top: 10px;
+    align-self: center;
+}
